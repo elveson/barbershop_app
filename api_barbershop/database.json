@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": 5,
+      "name": "Rodrigo Rahman 1",
+      "email": "rodrigorahman1@gmail.com",
+      "password": "123123",
+      "profile": "ADM",
+      "work_days": ["Seg"],
+      "work_hours": [6]
+    },
+    {
+      "id": 7,
+      "name": "Rodrigo Rahman 1 EMPLOYEE",
+      "email": "rodrigorahman2@gmail.com",
+      "password": "123123",
+      "profile": "EMPLOYEE",
+      "barbershop_id": 2,
+      "work_days": ["Seg", "Qua"],
+      "work_hours": [6, 7, 8]
+    },
+    {
+      "id": 8,
+      "name": "test",
+      "email": "test@test.com",
+      "password": "123123",
+      "profile": "ADM"
+    },
+    {
+      "id": 9,
+      "name": "test1",
+      "email": "dw@dw.com",
+      "password": "123123",
+      "profile": "ADM"
+    }
+  ],
+  "adm_users": [],
+  "barbershop": [
+    {
+      "id": 2,
+      "user_id": "5",
+      "name": "Barbearia X",
+      "email": "barbeariax@gmail.com",
+      "opening_days": ["Seg", "Qua", "Sab"],
+      "opening_hours": [6, 7, 8, 9, 18, 19, 20, 12, 13]
+    }
+  ],
+  "schedules": [
+    {
+      "id": 1,
+      "barbershop_id": 2,
+      "user_id": 5,
+      "client_name": "teste",
+      "date": "2023-08-09T00:00:00.000Z",
+      "time": 8
+    },
+    {
+      "id": 2,
+      "barbershop_id": 2,
+      "user_id": 7,
+      "client_name": "Cliente",
+      "date": "2023-09-13T00:00:00.000Z",
+      "time": 8
+    },
+    {
+      "id": 3,
+      "barbershop_id": 2,
+      "user_id": 7,
+      "client_name": "asdfas",
+      "date": "2023-09-13T00:00:00.000Z",
+      "time": 7
+    }
+  ]
+}
